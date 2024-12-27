@@ -1,25 +1,27 @@
-from Verificador import Verificador 
+from Verificador import Verificador
+from Jogador import Jogador
+
 
 class Turno:
-     # Declaração de variaveis
+    # Declaração de variaveis
     def __init__(self):
-        self.__nivel: Verificador = Verificador()
-    
-    def verificar_nivel(self):
-        # Usa a instância de Verificador para verificar o nível
-        return self.__verificador.verificar_nivel(self.__nivel)
-    
-    def caridade():
+        self.__verificador: Verificador = Verificador()
+
+
+    def verificar_nivel(self, jogador: Jogador) -> int:
+        return self.__verificador.verificar_nivel(jogador)
+
+    def caridade(self):
         return None
-    
-    def abrirPorta():
+
+    def abrirPorta(self):
         return None
-    
-    def SaquearSala():
+
+    def SaquearSala(self):
         return None
-    
-    def ProcurarEncrenca():
+
+    def ProcurarEncrenca(self):
         return None
-    
-    def passarVez():
+
+    def passarVez(self):
         return None
