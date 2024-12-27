@@ -7,16 +7,16 @@ class Carta(ABC):
         self.__nome = nome
         self.__imagem = imagem
 
-    def get_nome(self):
+    def get_nome(self) -> str:
         return self.__nome
 
-    def set_nome(self, nome: str):
+    def set_nome(self, nome: str) -> None:
         self.__nome = nome
 
-    def get_imagem(self):
+    def get_imagem(self) -> str:
         return self.__imagem
 
-    def set_imagem(self, imagem: str):
+    def set_imagem(self, imagem: str) -> None:
         self.__imagem = imagem
 
     @abstractmethod
