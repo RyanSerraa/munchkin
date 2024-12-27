@@ -1,4 +1,3 @@
-import pygame
 
 class Jogador:
     # Declaração de variaveis

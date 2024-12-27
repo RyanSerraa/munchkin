@@ -1,5 +1,13 @@
-import pygame
-
 class Combate:
-    def FugirDeCombate():
-        return null
+    def fugirDeCombate():
+        return None
+    def interferirEmCombate():
+        return None
+    def pedirAjuda():
+        return None
+    def matar():
+        return None
+    def compararForcaCombat():
+        return None
+    def finalizarCombate():
+        return None 
