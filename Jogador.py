@@ -2,6 +2,7 @@
 class Jogador:
     # Declaração de variaveis
     def __init__(self):
+        self.__nome: str = "Sem nome"
         self.__nivel: int = 1
         self.__forca: int = 1
         self.__sexo: str = ""
@@ -28,6 +29,12 @@ class Jogador:
     # Getter e Setter para 'sexo'
     def get_sexo(self) -> str:
         return self.__sexo
+
+    def get_nome(self) -> str:
+        return self.__nome
+
+    def set_nome(self, nome: str):
+        self.__nome = nome
     
     def set_sexo(self, sexo: str):
         self.__sexo = sexo
