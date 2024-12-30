@@ -1,10 +1,10 @@
 from abc import ABC, abstractmethod
 from typing import Any
 
-from Carta import Carta
+from Porta import Porta
 
 
-class Maldicao(Carta, ABC):
+class Maldicao(Porta, ABC):
     @abstractmethod
     def acao(self, parametro: Any) -> None:
         pass
